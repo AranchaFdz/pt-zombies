@@ -66,7 +66,6 @@ public class Survivor {
         }
     }
 
-
     private void discardEquipment() {
         if (!inReserve.isEmpty()) {
             inReserve.remove(0);
@@ -74,8 +73,6 @@ public class Survivor {
             inHand.remove(0);
         }
     }
-
-
 
     public List<Equipment> getInHand() {
         return new ArrayList<>(inHand);
